@@ -7,4 +7,5 @@ project(TEST C)
 # 実行ファイルの作成(実行ファイル名　ソースファイル名1 ソースファイル名2 ...)
 add_executable(test_app 
             test.c
-            bubble_sort.c)
+            bubble_sort.c
+            selection_sort.c)

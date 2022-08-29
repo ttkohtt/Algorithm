@@ -303,6 +303,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="C:\Users\kawak\Desktop\Study_Programming\Algorithms\Sort\test.c" />
     <ClCompile Include="C:\Users\kawak\Desktop\Study_Programming\Algorithms\Sort\bubble_sort.c" />
+    <ClCompile Include="C:\Users\kawak\Desktop\Study_Programming\Algorithms\Sort\selection_sort.c" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\kawak\Desktop\Study_Programming\Algorithms\Sort\build\ZERO_CHECK.vcxproj">

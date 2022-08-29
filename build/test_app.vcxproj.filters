@@ -7,6 +7,9 @@
     <ClCompile Include="C:\Users\kawak\Desktop\Study_Programming\Algorithms\Sort\bubble_sort.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\kawak\Desktop\Study_Programming\Algorithms\Sort\selection_sort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\kawak\Desktop\Study_Programming\Algorithms\Sort\CMakeLists.txt" />

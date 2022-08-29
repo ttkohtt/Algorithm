@@ -1,5 +1,5 @@
-#ifndef BUBBLE_SORT_H
-#define BUBBLE_SORT_H
+#ifndef SELECTION_SORT_H
+#define SELECTION_SORT_H
 /************************************************
  * Include
  * **********************************************/
@@ -16,12 +16,12 @@
  * Prototype declaration
  * **********************************************/
 /**
- * @brief       Sort using bubble sort
+ * @brief       Sort using selection sort
  * @param Array Array to sort
  * @param n     Number of array
  * @param mode  0: Ascending order, 1: Descending order
  * @return      0: Success, -1: Error
  */
-int bubble_sort(int* Array, unsigned int n, unsigned short mode);
+int selection_sort(int* Array, unsigned int n, unsigned short mode);
 
 #endif
