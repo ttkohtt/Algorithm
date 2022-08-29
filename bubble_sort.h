@@ -22,6 +22,6 @@
  * @param mode  0: Ascending order, 1: Descending order
  * @return      0: Success, -1: Error
  */
-int bubble_sort(int* Array, unsigned int n, unsigned short mode);
+int bubble_sort(int* Array, int n, unsigned short mode);
 
 #endif

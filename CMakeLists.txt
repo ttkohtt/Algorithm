@@ -8,4 +8,6 @@ project(TEST C)
 add_executable(test_app 
             test.c
             bubble_sort.c
-            selection_sort.c)
+            selection_sort.c
+            insert_sort.c
+            quick_sort.c)

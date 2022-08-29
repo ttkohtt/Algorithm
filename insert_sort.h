@@ -1,5 +1,5 @@
-#ifndef SELECTION_SORT_H
-#define SELECTION_SORT_H
+#ifndef INSERT_SORT_H
+#define INSERT_SORT_H
 /************************************************
  * Include
  * **********************************************/
@@ -16,12 +16,12 @@
  * Prototype declaration
  * **********************************************/
 /**
- * @brief       Sort using selection sort
+ * @brief       Sort using insert sort
  * @param Array Array to sort
  * @param n     Number of array
  * @param mode  0: Ascending order, 1: Descending order
  * @return      0: Success, -1: Error
  */
-int selection_sort(int* Array, int n, unsigned short mode);
+int insert_sort(int* Array, int n, unsigned short mode);
 
 #endif

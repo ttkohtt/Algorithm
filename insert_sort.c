@@ -1,4 +1,4 @@
-#include "selection_sort.h"
+#include "insert_sort.h"
 #include <stdio.h>
 
 /************************************************
@@ -20,7 +20,7 @@
 /************************************************
  * Function definition
  * **********************************************/
-int selection_sort(int* Array, int n, unsigned short mode)
+int insert_sort(int* Array, int n, unsigned short mode)
 {
     int i, j, idx;
     int found_num, Temp;
@@ -28,48 +28,34 @@ int selection_sort(int* Array, int n, unsigned short mode)
     // Ascending order
     if(mode == 0)
     {
-        for(i = 0; i < (n - 1) ; i++)
-        {   
-            // Set min index
-            idx = i;
-            
-            // Find minimum
-            for(j = i + 1; j < n; j++)
-            {   
-                if(Array[j] < Array[idx])
-                {
-                    idx = j; // update the minimum index
+        for(i = 1; i < n ; i++)
+        {
+            for(j = i; j > 0; j--)
+            {
+                if(Array[j] < Array[j - 1])
+                {   
+                    Temp = Array[j - 1];
+                    Array[j - 1] = Array[j];
+                    Array[j] = Temp;
                 }
             }
-
-            // Exchange
-            Temp = Array[i];
-            Array[i] = Array[idx];
-            Array[idx] = Temp;
         }
     }
     
     // Descending order
     if(mode == 1)
     {
-        for(i = 0; i < (n - 1) ; i++)
+        for(i = 1; i < n ; i++)
         {
-            // Set min index
-            idx = i;
-            
-            // Find max
-            for(j = i + 1; j < n; j++)
-            {   
-                if(Array[j] > Array[idx])
-                {
-                    idx = j; // update the max index
+            for(j = i; j > 0; j--)
+            {
+                if(Array[j] > Array[j - 1])
+                {   
+                    Temp = Array[j - 1];
+                    Array[j - 1] = Array[j];
+                    Array[j] = Temp;
                 }
             }
-
-            // Exchange
-            Temp = Array[i];
-            Array[i] = Array[idx];
-            Array[idx] = Temp;
         } 
     }
     

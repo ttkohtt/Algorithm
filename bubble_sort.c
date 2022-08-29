@@ -20,9 +20,9 @@
 /************************************************
  * Function definition
  * **********************************************/
-int bubble_sort(int* Array,unsigned int n, unsigned short mode)
+int bubble_sort(int* Array,int n, unsigned short mode)
 {
-    unsigned int i, j;
+    int i, j;
     int Temp;
 
     // Ascending order
