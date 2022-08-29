@@ -1,0 +1,10 @@
+^C:\USERS\KAWAK\DESKTOP\STUDY_PROGRAMMING\ALGORITHMS\SORT\BUILD\CMAKEFILES\D115D56D550C5AB8EF72D2258C1C8C11\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kawak/Desktop/Study_Programming/Algorithms/Sort -BC:/Users/kawak/Desktop/Study_Programming/Algorithms/Sort/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/kawak/Desktop/Study_Programming/Algorithms/Sort/build/TEST.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

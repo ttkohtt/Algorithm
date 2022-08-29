@@ -1,0 +1,3 @@
+C:/Users/kawak/Desktop/Study_Programming/Algorithms/Sort/build/CMakeFiles/test_app.dir
+C:/Users/kawak/Desktop/Study_Programming/Algorithms/Sort/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kawak/Desktop/Study_Programming/Algorithms/Sort/build/CMakeFiles/ZERO_CHECK.dir
