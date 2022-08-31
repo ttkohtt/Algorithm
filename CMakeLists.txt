@@ -10,4 +10,5 @@ add_executable(test_app
             bubble_sort.c
             selection_sort.c
             insert_sort.c
-            quick_sort.c)
+            quick_sort.c
+            heap_sort.c)

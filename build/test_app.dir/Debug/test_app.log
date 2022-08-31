@@ -1,2 +1,4 @@
-﻿  test.c
+﻿  heap_sort.c
+C:\Users\kawak\Desktop\Study_Programming\Algorithms\Sort\heap_sort.c(70,26): warning C4047: '関数': 間接参照のレベルが 'int *' と 'int **' で異なっています。
+C:\Users\kawak\Desktop\Study_Programming\Algorithms\Sort\heap_sort.c(70,20): warning C4024: 'min_heapfy': の型が 1 の仮引数および実引数と異なります。
   test_app.vcxproj -> C:\Users\kawak\Desktop\Study_Programming\Algorithms\Sort\build\Debug\test_app.exe
